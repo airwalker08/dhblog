@@ -43,6 +43,9 @@ public class DiagnosticsController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> Get(CancellationToken ct) =>
         Ok(await _diagnostics.GetDiagnosticsAsync(ct));
+
+    [HttpGet("ping")]
+    public IActionResult Ping() => Ok(new { timestamp = DateTime.UtcNow });
 }
 
 [ApiController]

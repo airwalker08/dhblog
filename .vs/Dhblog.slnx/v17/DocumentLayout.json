@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|solutionrelative:src\\dhblog.api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|solutionrelative:src\\dhblog.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.api\\controllers\\admincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|solutionrelative:src\\dhblog.api\\controllers\\admincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|solutionrelative:src\\dhblog.api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.database\\deploy\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|solutionrelative:src\\dhblog.database\\deploy\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.database\\deploy\\dynamodbtabledeployer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|solutionrelative:src\\dhblog.database\\deploy\\dynamodbtabledeployer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.database\\tablenames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|solutionrelative:src\\dhblog.database\\tablenames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.database\\tabledefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|solutionrelative:src\\dhblog.database\\tabledefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.api\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.database\\entities\\blogentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|solutionrelative:src\\dhblog.database\\entities\\blogentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.database\\deploy\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|solutionrelative:src\\dhblog.database\\deploy\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -87,19 +103,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\Dhblog.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T22:15:53.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DynamoDbTableDeployer.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\Deploy\\DynamoDbTableDeployer.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.Database\\Deploy\\DynamoDbTableDeployer.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\Deploy\\DynamoDbTableDeployer.cs",
+              "RelativeToolTip": "src\\Dhblog.Database\\Deploy\\DynamoDbTableDeployer.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T22:04:11.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TableNames.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\TableNames.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.Database\\TableNames.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\TableNames.cs",
+              "RelativeToolTip": "src\\Dhblog.Database\\TableNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T21:45:09.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TableDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\TableDefinitions.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.Database\\TableDefinitions.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\TableDefinitions.cs",
+              "RelativeToolTip": "src\\Dhblog.Database\\TableDefinitions.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T19:51:05.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "BlogController.cs",
               "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "src\\Dhblog.Api\\Controllers\\BlogController.cs",
               "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\BlogController.cs",
               "RelativeToolTip": "src\\Dhblog.Api\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T01:28:32.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "SettingsController.cs",
               "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\SettingsController.cs",
               "RelativeDocumentMoniker": "src\\Dhblog.Api\\Controllers\\SettingsController.cs",
@@ -111,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ITopicRepository.cs",
               "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\ITopicRepository.cs",
               "RelativeDocumentMoniker": "src\\Dhblog.DataAccess\\ITopicRepository.cs",
@@ -123,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "DynamoMapping.cs",
               "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\DynamoMapping.cs",
               "RelativeDocumentMoniker": "src\\Dhblog.DataAccess\\DynamoMapping.cs",
@@ -135,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "BlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\BlogRepository.cs",
               "RelativeDocumentMoniker": "src\\Dhblog.DataAccess\\BlogRepository.cs",
@@ -147,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AdminControllers.cs",
               "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\AdminControllers.cs",
               "RelativeDocumentMoniker": "src\\Dhblog.Api\\Controllers\\AdminControllers.cs",
@@ -160,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "BlogEntry.cs",
               "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\Entities\\BlogEntry.cs",
               "RelativeDocumentMoniker": "src\\Dhblog.Database\\Entities\\BlogEntry.cs",
@@ -172,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "DynamoDbOptions.cs",
               "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\DynamoDbOptions.cs",
               "RelativeDocumentMoniker": "src\\Dhblog.DataAccess\\DynamoDbOptions.cs",
@@ -184,15 +252,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "DataSeeder.cs",
               "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\Deploy\\DataSeeder.cs",
               "RelativeDocumentMoniker": "src\\Dhblog.Database\\Deploy\\DataSeeder.cs",
               "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\Deploy\\DataSeeder.cs",
               "RelativeToolTip": "src\\Dhblog.Database\\Deploy\\DataSeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAjwEIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T21:30:04.056Z"
+              "WhenOpened": "2026-06-23T21:30:04.056Z",
+              "EditorCaption": ""
             }
           ]
         }

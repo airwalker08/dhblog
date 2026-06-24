@@ -76,7 +76,10 @@ builder.Services.AddScoped<TopicService>();
 builder.Services.AddScoped<DiagnosticsService>();
 builder.Services.AddScoped<AdminService>();
 
-if (builder.Environment.IsDevelopment())
+var useAws = builder.Configuration.GetValue("DHBLOG_USE_AWS", false)
+    || string.Equals(builder.Configuration["DHBLOG_USE_AWS"], "true", StringComparison.OrdinalIgnoreCase);
+
+if (builder.Environment.IsDevelopment() && !useAws)
 {
     builder.Services.AddSingleton<IAppSettingsProvider, LocalAppSettingsProvider>();
 }
