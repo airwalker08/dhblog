@@ -1,0 +1,35 @@
+@use 'variables' as *;
+
+.post-auth-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: $header-height;
+  --dhblog-sidebar-width: #{$sidebar-default-width};
+
+  main {
+    flex: 1 0 auto;
+  }
+}
+
+.pre-auth-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  main {
+    flex: 1 0 auto;
+  }
+}
+
+.dhblog-main-with-sidenav {
+  margin-left: var(--dhblog-sidebar-width);
+  padding: 24px;
+  flex: 1 0 auto;
+  transition: margin-left 0.2s ease;
+}
+
+body.dhblog-resizing {
+  cursor: col-resize;
+  user-select: none;
+}

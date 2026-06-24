@@ -1,0 +1,18 @@
+// Materialize sets padding: 0 on all inputs; restore MUI TextField layout.
+input.MuiInputBase-input,
+textarea.MuiInputBase-input {
+  box-sizing: border-box !important;
+  padding: 14px !important;
+  margin: 0 !important;
+  height: auto !important;
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  line-height: 1.4375em !important;
+}
+
+.MuiInputBase-sizeSmall input.MuiInputBase-input,
+.MuiInputBase-sizeSmall textarea.MuiInputBase-input {
+  padding: 8.5px 14px !important;
+}

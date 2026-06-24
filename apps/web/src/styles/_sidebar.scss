@@ -1,0 +1,81 @@
+@use 'variables' as *;
+
+.dhblog-sidebar {
+  position: fixed;
+  top: $header-height;
+  left: 0;
+  bottom: 0;
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-bg-sidebar;
+  border-right: 1px solid $color-border;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+
+  &--collapsed {
+    box-shadow: none;
+  }
+}
+
+.dhblog-sidebar-toggle {
+  flex-shrink: 0;
+  width: 100%;
+  min-height: 48px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid $color-border;
+  background: $color-bg-sidebar-toggle;
+  color: $color-text-dark;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background: $color-bg-sidebar-toggle-hover;
+  }
+}
+
+.dhblog-sidebar-nav {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+  background-color: $color-bg-sidebar;
+  color: $color-text-primary;
+  height: auto;
+  line-height: normal;
+  box-shadow: none;
+
+  .collection {
+    margin: 0;
+    border: none;
+  }
+
+  .collection-item {
+    border-left: none;
+    border-right: none;
+
+    &.active {
+      background-color: $color-active-bg;
+      color: $color-primary;
+    }
+  }
+}
+
+.dhblog-sidebar-resize {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 6px;
+  height: 100%;
+  cursor: col-resize;
+  background: transparent;
+
+  &:hover {
+    background: $color-primary-tint-strong;
+  }
+}

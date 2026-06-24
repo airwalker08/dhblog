@@ -1,0 +1,53 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+
+  &__title {
+    margin: 0;
+  }
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+
+  &--split {
+    align-items: center;
+  }
+}
+
+.alert-stack {
+  margin-bottom: 16px;
+}
+
+.pagination-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.flex-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.btn-spaced-left {
+  margin-left: 16px;
+}
+
+.btn-spaced-top {
+  margin-top: 16px;
+}
+
+.auth-loading {
+  margin-top: 80px;
+}
+
+.diagnostics-pre {
+  overflow: auto;
+}

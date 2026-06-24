@@ -1,0 +1,76 @@
+@use 'variables' as *;
+
+.dhblog-side-nav {
+  background-color: $color-bg-sidebar;
+  color: $color-text-primary;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: auto;
+  line-height: normal;
+  box-shadow: none;
+
+  .MuiTreeItem-content {
+    // Do not use padding shorthand — it overrides MUI depth-based padding-left.
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 8px;
+    padding-left: calc(8px + #{$nav-child-indent} * var(--TreeView-itemDepth, 0));
+    border-radius: 0;
+    color: $color-text-primary;
+    gap: 0;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    &.Mui-selected {
+      background-color: $color-active-bg;
+      color: $color-primary;
+
+      &:hover {
+        background-color: $color-active-bg;
+      }
+    }
+
+    &.Mui-focused {
+      background-color: rgba(0, 0, 0, 0.04);
+
+      &.Mui-selected {
+        background-color: $color-active-bg;
+      }
+    }
+  }
+
+  .MuiTreeItem-label {
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .MuiTreeItem-iconContainer {
+    width: $nav-icon-slot-width;
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  &__chevron {
+    font-size: $nav-chevron-size;
+    color: $color-text-secondary;
+    line-height: 1;
+  }
+}
+
+.dhblog-sidebar-nav {
+  .MuiRichTreeView-root {
+    color: $color-text-primary;
+  }
+
+  .MuiTreeItem-content {
+    color: $color-text-primary;
+  }
+
+  .MuiTreeItem-content.Mui-selected,
+  .MuiTreeItem-content.Mui-selected .MuiTreeItem-label {
+    color: $color-primary;
+  }
+}

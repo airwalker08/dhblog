@@ -1,0 +1,6 @@
+services:
+  api:
+    volumes:
+      - ./src:/src:ro
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development

@@ -1,0 +1,58 @@
+@use 'variables' as *;
+
+.dhblog-header {
+  background-color: var(--dhblog-header-bg);
+}
+
+.dhblog-header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: $header-height;
+
+  .dhblog-header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.dhblog-nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: $header-height;
+  max-width: none;
+  margin: 0;
+  padding: 0 16px 0 0;
+}
+
+.dhblog-header .dropdown-content {
+  z-index: 1002;
+  min-width: 160px;
+
+  li > a {
+    color: $color-text-primary;
+  }
+}
+
+.dhblog-header .brand-logo.dhblog-logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: none;
+  margin: 0;
+  padding: 0 20px;
+  height: $header-height;
+  line-height: $header-height;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: $color-white;
+  z-index: 1001;
+}
+
+.dhblog-logo {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: $color-white;
+}

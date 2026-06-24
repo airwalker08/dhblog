@@ -1,0 +1,13 @@
+{
+  "name": "dhblog",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "build:infra": "pnpm --filter infra build",
+    "cdk": "pnpm --filter infra cdk"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

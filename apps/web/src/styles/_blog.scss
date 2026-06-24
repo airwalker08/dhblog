@@ -1,0 +1,24 @@
+.blog-entry-card {
+  margin-bottom: 16px;
+}
+
+.blog-entry-image {
+  max-width: 200px;
+  margin-top: 8px;
+}
+
+.feed-entry-author {
+  margin-top: 0;
+}
+
+.topic-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.chip-close {
+  cursor: pointer;
+  font-size: 16px;
+}

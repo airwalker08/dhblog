@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Dhblog.Api/Dhblog.Api.csproj" />
+    <Project Path="src/Dhblog.DataAccess/Dhblog.DataAccess.csproj" />
+    <Project Path="src/Dhblog.Database/Dhblog.Database.csproj" />
+  </Folder>
+</Solution>

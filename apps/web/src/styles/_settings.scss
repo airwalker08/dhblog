@@ -1,0 +1,54 @@
+@use 'variables' as *;
+
+.settings-list {
+  max-width: 720px;
+}
+
+.settings-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.settings-list-expression {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  column-gap: 0.35em;
+  flex: 1;
+  min-width: 0;
+}
+
+.settings-list-prefix {
+  white-space: nowrap;
+  font-weight: 500;
+  color: $color-text-dark;
+}
+
+.settings-list-value {
+  color: $color-text-muted;
+  word-break: break-word;
+  min-width: 0;
+}
+
+.settings-list-edit {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 4px;
+  min-width: 0;
+  line-height: 1;
+  color: $color-primary;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary-tint;
+  }
+
+  .material-icons {
+    font-size: 20px;
+  }
+}
+
+.settings-dialog-key {
+  margin-top: 0;
+}

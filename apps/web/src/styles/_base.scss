@@ -1,0 +1,20 @@
+@use 'variables' as *;
+
+:root {
+  --dhblog-header-bg: #{$color-primary};
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: $color-bg-page;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.page-footer {
+  margin-top: auto;
+}

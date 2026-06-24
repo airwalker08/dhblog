@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.api\\controllers\\admincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|solutionrelative:src\\dhblog.api\\controllers\\admincontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|solutionrelative:src\\dhblog.api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.api\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537E5BA4-AF0F-9890-DC94-484BE3B65B25}|src\\Dhblog.Api\\Dhblog.Api.csproj|solutionrelative:src\\dhblog.api\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D9C93F-1026-9FBB-1BF7-E847F70A8CF2}|src\\Dhblog.DataAccess\\Dhblog.DataAccess.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.dataaccess\\itopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D9C93F-1026-9FBB-1BF7-E847F70A8CF2}|src\\Dhblog.DataAccess\\Dhblog.DataAccess.csproj|solutionrelative:src\\dhblog.dataaccess\\itopicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D9C93F-1026-9FBB-1BF7-E847F70A8CF2}|src\\Dhblog.DataAccess\\Dhblog.DataAccess.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.dataaccess\\dynamomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D9C93F-1026-9FBB-1BF7-E847F70A8CF2}|src\\Dhblog.DataAccess\\Dhblog.DataAccess.csproj|solutionrelative:src\\dhblog.dataaccess\\dynamomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D9C93F-1026-9FBB-1BF7-E847F70A8CF2}|src\\Dhblog.DataAccess\\Dhblog.DataAccess.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.dataaccess\\dynamodboptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D9C93F-1026-9FBB-1BF7-E847F70A8CF2}|src\\Dhblog.DataAccess\\Dhblog.DataAccess.csproj|solutionrelative:src\\dhblog.dataaccess\\dynamodboptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10D9C93F-1026-9FBB-1BF7-E847F70A8CF2}|src\\Dhblog.DataAccess\\Dhblog.DataAccess.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.dataaccess\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D9C93F-1026-9FBB-1BF7-E847F70A8CF2}|src\\Dhblog.DataAccess\\Dhblog.DataAccess.csproj|solutionrelative:src\\dhblog.dataaccess\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.database\\entities\\blogentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|solutionrelative:src\\dhblog.database\\entities\\blogentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|c:\\users\\darri\\onedrive\\documents\\github\\dhblog\\src\\dhblog.database\\deploy\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD789B1C-BA75-91E7-9F8F-61A2504D80BC}|src\\Dhblog.Database\\Dhblog.Database.csproj|solutionrelative:src\\dhblog.database\\deploy\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.Api\\Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "src\\Dhblog.Api\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:28:32.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.Api\\Controllers\\SettingsController.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "src\\Dhblog.Api\\Controllers\\SettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:21:53.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITopicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\ITopicRepository.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.DataAccess\\ITopicRepository.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\ITopicRepository.cs",
+              "RelativeToolTip": "src\\Dhblog.DataAccess\\ITopicRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:02:46.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DynamoMapping.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\DynamoMapping.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.DataAccess\\DynamoMapping.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\DynamoMapping.cs",
+              "RelativeToolTip": "src\\Dhblog.DataAccess\\DynamoMapping.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAYwBcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T01:01:46.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\BlogRepository.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.DataAccess\\BlogRepository.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\BlogRepository.cs",
+              "RelativeToolTip": "src\\Dhblog.DataAccess\\BlogRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:40:48.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminControllers.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\AdminControllers.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.Api\\Controllers\\AdminControllers.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Api\\Controllers\\AdminControllers.cs",
+              "RelativeToolTip": "src\\Dhblog.Api\\Controllers\\AdminControllers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T00:40:38.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogEntry.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\Entities\\BlogEntry.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.Database\\Entities\\BlogEntry.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\Entities\\BlogEntry.cs",
+              "RelativeToolTip": "src\\Dhblog.Database\\Entities\\BlogEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T21:30:50.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DynamoDbOptions.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\DynamoDbOptions.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.DataAccess\\DynamoDbOptions.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.DataAccess\\DynamoDbOptions.cs",
+              "RelativeToolTip": "src\\Dhblog.DataAccess\\DynamoDbOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T21:30:08.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\Deploy\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "src\\Dhblog.Database\\Deploy\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\darri\\OneDrive\\Documents\\GitHub\\dhblog\\src\\Dhblog.Database\\Deploy\\DataSeeder.cs",
+              "RelativeToolTip": "src\\Dhblog.Database\\Deploy\\DataSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T21:30:04.056Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

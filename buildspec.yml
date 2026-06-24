@@ -1,0 +1,40 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 8.0
+      nodejs: 20
+    commands:
+      - npm install -g pnpm aws-cdk
+      - pnpm install
+      - cd infra && pnpm install && cd ..
+
+  pre_build:
+    commands:
+      - aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com
+      - dotnet restore Dhblog.sln
+      - dotnet build Dhblog.sln -c Release
+
+  build:
+    commands:
+      - dotnet test Dhblog.sln -c Release --no-build || true
+      - pnpm --filter web build
+      - docker build -f docker/api/Dockerfile -t dhblog-api:$CODEBUILD_RESOLVED_SOURCE_VERSION .
+      - docker build -f docker/web/Dockerfile -t dhblog-web:$CODEBUILD_RESOLVED_SOURCE_VERSION .
+      - export API_REPO=$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/dhblog-api-$DHBLOG_ENV
+      - export WEB_REPO=$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/dhblog-web-$DHBLOG_ENV
+      - docker tag dhblog-api:$CODEBUILD_RESOLVED_SOURCE_VERSION $API_REPO:latest
+      - docker tag dhblog-web:$CODEBUILD_RESOLVED_SOURCE_VERSION $WEB_REPO:latest
+      - docker push $API_REPO:latest
+      - docker push $WEB_REPO:latest
+      - cd infra && npx cdk deploy --all -c env=$DHBLOG_ENV --require-approval never
+
+  post_build:
+    commands:
+      - aws ecs update-service --cluster dhblog-$DHBLOG_ENV --service $(aws ecs list-services --cluster dhblog-$DHBLOG_ENV --query 'serviceArns[0]' --output text | xargs basename) --force-new-deployment --region $AWS_REGION || true
+      - echo "Deploy complete"
+
+artifacts:
+  files:
+    - '**/*'
