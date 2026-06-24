@@ -146,3 +146,6 @@ vite.config.ts.timestamp-*
 infra/cdk.out
 infra/dist
 publish/
+
+# Visual Studio
+.vs/
