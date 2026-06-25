@@ -225,5 +225,5 @@ public class DataSeeder
     }
 
     private static AttributeValue S(string v) => new(v);
-    private static AttributeValue N(int v) => new(v.ToString());
+    private static AttributeValue N(int v) => new() { N = v.ToString() };
 }

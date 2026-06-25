@@ -25,15 +25,33 @@ Personal sandbox for experimenting with tiered AWS architecture: React web app, 
 ## Quick start (local)
 
 ```powershell
-# First-time bootstrap
-.\scripts\local-setup.ps1
-
-# Terminal 1 — API
-dotnet run --project src/Dhblog.Api
-
-# Terminal 2 — Web
-pnpm --filter web dev
+.\start.ps1                  # local mode (default) — handles IIS, DynamoDB, DB seed, and web
+.\start.ps1 -Mode remote     # AWS dev services
 ```
+
+First run may prompt for administrator approval to configure IIS. The `DhblogApi` site points at the **Debug build output** (`src/Dhblog.Api/bin/Debug/net8.0`) so you can attach a debugger and step through API code.
+
+### Debugging the API under IIS
+
+**IIS physical path (required):**
+
+```
+src/Dhblog.Api/bin/Debug/net8.0
+```
+
+Full path example: `C:\Users\<you>\OneDrive\Documents\GitHub\dhblog\src\Dhblog.Api\bin\Debug\net8.0`
+
+That folder must contain `Dhblog.Api.dll`, `Dhblog.Api.pdb`, and `web.config`. IIS site **DhblogApi** must point at this folder — not `publish\iis-api`, not the project root, not `bin\Debug` without `net8.0`.
+
+**Verify in IIS Manager:** Sites → DhblogApi → Basic Settings → Physical path.
+
+**Attach the debugger correctly:** ASP.NET Core runs **out-of-process** (`hostingModel="outofprocess"` in web.config). Attach to the **`dotnet.exe`** process whose command line includes `Dhblog.Api.dll`. Do **not** attach only to `w3wp.exe` — breakpoints in your code will not hit.
+
+**Visual Studio:** Open `Dhblog.Api`, select the **IIS** launch profile, set breakpoints, press F5. The project sets `<IISAppName>DhblogApi</IISAppName>` so VS binds to the correct site.
+
+**VS Code / Cursor:** Run `.\start.ps1`, trigger a request (so the app starts), then use **Attach to Dhblog.Api (IIS)** and pick the `dotnet.exe` process running `Dhblog.Api.dll`.
+
+**If breakpoints stay hollow/unbound:** Rebuild (`dotnet build src/Dhblog.Api -c Debug`), recycle the app pool, re-attach. In Visual Studio, open Debug → Windows → Modules and confirm `Dhblog.Api.dll` shows **Symbols loaded**.
 
 Open http://localhost:5173 and sign in:
 

@@ -1,4 +1,3 @@
-using Dhblog.Api.Services;
 using Dhblog.Api.Settings;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -30,29 +29,3 @@ public class SettingsController : ControllerBase
 }
 
 public record SettingValueRequest(string Value);
-
-[ApiController]
-[Route("api/diagnostics")]
-[Authorize(Policy = "Feature:DIAGNOSTICS")]
-public class DiagnosticsController : ControllerBase
-{
-    private readonly DiagnosticsService _diagnostics;
-
-    public DiagnosticsController(DiagnosticsService diagnostics) => _diagnostics = diagnostics;
-
-    [HttpGet]
-    public async Task<IActionResult> Get(CancellationToken ct) =>
-        Ok(await _diagnostics.GetDiagnosticsAsync(ct));
-
-    [HttpGet("ping")]
-    public IActionResult Ping() => Ok(new { timestamp = DateTime.UtcNow });
-}
-
-[ApiController]
-[Route("api/health")]
-public class HealthController : ControllerBase
-{
-    [HttpGet]
-    [AllowAnonymous]
-    public IActionResult Get() => Ok(new { status = "healthy", timestamp = DateTime.UtcNow });
-}

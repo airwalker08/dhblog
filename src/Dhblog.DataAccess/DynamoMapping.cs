@@ -52,7 +52,7 @@ internal static class DynamoMapping
         Description = item.GetValueOrDefault("Description")?.S ?? "",
         NavPath = item.GetValueOrDefault("NavPath")?.S ?? "",
         ParentFeatureId = item.GetValueOrDefault("ParentFeatureId")?.S ?? "",
-        SortOrder = int.Parse(item.GetValueOrDefault("SortOrder")?.N ?? "0")
+        SortOrder = ParseInt(item.GetValueOrDefault("SortOrder"))
     };
 
     public static FeatureRole MapFeatureRole(Dictionary<string, AttributeValue> item) => new()
@@ -89,7 +89,7 @@ internal static class DynamoMapping
         S3Key = item["S3Key"].S,
         ContentType = item.GetValueOrDefault("ContentType")?.S ?? "",
         SizeBytes = long.Parse(item.GetValueOrDefault("SizeBytes")?.N ?? "0"),
-        SortOrder = int.Parse(item.GetValueOrDefault("SortOrder")?.N ?? "0"),
+        SortOrder = ParseInt(item.GetValueOrDefault("SortOrder")),
         AttachmentType = item.GetValueOrDefault("AttachmentType")?.S ?? "image",
         CreatedAt = DateTime.Parse(item.GetValueOrDefault("CreatedAt")?.S ?? DateTime.UtcNow.ToString("O"))
     };
@@ -150,6 +150,7 @@ internal static class DynamoMapping
     };
 
     private static AttributeValue S(string v) => new(v);
-    private static AttributeValue N(long v) => new(v.ToString());
-    private static AttributeValue N(int v) => new(v.ToString());
+    private static AttributeValue N(long v) => new() { N = v.ToString() };
+    private static AttributeValue N(int v) => new() { N = v.ToString() };
+    private static int ParseInt(AttributeValue? av) => int.Parse(av?.N ?? av?.S ?? "0");
 }
